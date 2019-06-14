@@ -75,3 +75,42 @@ export const fetchBookById = (bookId) => {
       });
   };
 };
+
+// Sync add to cart
+export const addToCartSuccess = (item) => {
+  return {
+    type: 'ADD_TO_CART_SUCCESS',
+    item
+  }
+};
+// Async add to cart
+export const addToCart = (item) => {
+  return (dispatch) => {
+    return Axios.post('http://57c64baac1fc8711008f2a82.mockapi.io/Cart', item)
+      .then(response => {
+        dispatch(addToCartSuccess(response.data))
+      })
+      .catch(error => {
+        throw(error);
+      });
+  };
+};
+// Sync load cart
+export const fetchCartSuccess = (items) => {
+  return {
+    type: 'FETCH_CART_SUCCESS',
+    items
+  }
+};
+// Async load cart
+export const fetchCart = () => {
+  return (dispatch) => {
+    return Axios.get('http://57c64baac1fc8711008f2a82.mockapi.io/Cart')
+      .then(response => {
+        dispatch(fetchCartSuccess(response.data))
+      })
+      .catch(error => {
+        throw(error);
+      });
+  };
+};

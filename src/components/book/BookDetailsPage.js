@@ -10,6 +10,14 @@ class BookDetailsPage extends React.Component {
         super(props, context);
     }
 
+    addToCart(book){
+        const item = {
+          title: book.title,
+          price: book.price
+        };
+        this.props.addToCart(item);
+      }
+
     render() {
         return (
             <div>

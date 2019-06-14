@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React  from 'react';
-import {Link} from 'react-router';
+import {NavLink} from 'react-router-dom';
 
 const App = (props) => {
   return (
@@ -13,10 +13,10 @@ const App = (props) => {
           </div>
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/books">Book</Link></li>
-              <li><Link to="/cart">Cart</Link></li>
+              <li><NavLink to="/">Home</NavLink></li>
+              <li><NavLink to="/about">About</NavLink></li>
+              <li><NavLink to="/books">Book</NavLink></li>
+              <li><NavLink to="/cart">Cart</NavLink></li>
             </ul>
           </div>
         </div>

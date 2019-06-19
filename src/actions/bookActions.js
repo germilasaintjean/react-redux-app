@@ -1,12 +1,5 @@
 import Axios from 'axios';
-export const CREATE_BOOK_SUCCESS = 'CREATE_BOOK_SUCCESS';
-export const FETCH_BOOKS_SUCCESS = 'FETCH_BOOKS_SUCCESS';
-export const FETCH_BOOK_BY_ID_SUCCESS = 'FETCH_BOOK_BY_ID_SUCCESS';
 export const actionTypes = "actionTypes" ;
-
-export const ADD_TO_CART_SUCCESS = 'ADD_TO_CART_SUCCESS';
-export const FETCH_CART_SUCCESS = 'FETCH_CART_SUCCESS';
-
 // API URL
 const apiUrl = 'http://57c62fdcc1fc8711008f2a7e.mockapi.io/api/book';
 

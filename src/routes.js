@@ -13,7 +13,7 @@ import BookDetailsPage from "./components/book/BookDetailsPage"
 class Routing extends Component {
 render() {
   return (
-<div className="link">
+
   <BrowserRouter>     
     <App/>
 
@@ -24,7 +24,7 @@ render() {
    <Route path="/cart" component={CartPage}></Route>
   {/* </Route> */}
 </BrowserRouter>
-</div>
+
 );
   }
 }

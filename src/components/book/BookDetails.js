@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const BookDetails = ({book, addToCart}) => {
     return (
       <div className="media">

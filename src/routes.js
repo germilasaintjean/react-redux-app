@@ -9,6 +9,7 @@ import BookPage from './components/book/BookPage'
 import App from './components/App'
  import CartPage from "./components/cart/CartPage"
 import BookDetailsPage from "./components/book/BookDetailsPage"
+import "./stylesheets.css"
 
 class Routing extends Component {
 render() {

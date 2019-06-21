@@ -28,10 +28,14 @@ class Book extends React.Component{
               </th>
             </thead>
             <tbody>
-            {this.props.books.map((b, i) => <tr key={i}>
+            {this.props.books.map((b, i) =>  {
+              return(
+                <tr key={i}>
               <td>{b.title}</td>
               <td><NavLink to={`/books/${b.id}`}>View</NavLink></td>
-            </tr> )}
+            </tr>
+             )
+            })}
             </tbody>
           </table>
         </div>

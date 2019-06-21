@@ -19,7 +19,7 @@ render() {
 
     <Route exact path="/" component={Home}></Route>
     <Route path="/about" component={About}></Route>
-    <Route path="/books" component={BookPage}></Route>
+    <Route exact path="/books" component={BookPage}></Route>
    <Route path="/books/:id" component={BookDetailsPage}></Route>
    <Route path="/cart" component={CartPage}></Route>
   {/* </Route> */}

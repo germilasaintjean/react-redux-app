@@ -11,6 +11,7 @@ import Routes from './routes';
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import configureStore from './store/configureStore';
+import "./stylesheets.css"
 
 
 const store = configureStore();

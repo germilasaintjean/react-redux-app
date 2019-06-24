@@ -18,6 +18,7 @@ class App extends Component {
               <li><NavLink to="/about">About</NavLink></li>
               <li><NavLink to="/books">Book</NavLink></li>
               <li><NavLink to="/cart">Cart</NavLink></li>
+              <li><NavLink to="/more">More</NavLink></li>
             </ul>
           </div>
         </div>
@@ -25,6 +26,9 @@ class App extends Component {
       {/* Each smaller components */}
       {/* {props.children} */}
     </div>
+
+
+
   );
 };
 }

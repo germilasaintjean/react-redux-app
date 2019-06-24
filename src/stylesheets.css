@@ -4,8 +4,10 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(100, 92, 100);
+  background-color: #bce9e5;
 }
+
+
 
 li {
   float: left;
@@ -21,4 +23,37 @@ li a {
 
 li a:hover {
   background-color: #111;
-};
+};  
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}

@@ -6,16 +6,17 @@ const BookDetails = ({book, addToCart}) => {
       <div className="media">
         <div className="media-left">
           <a href="#">
-            <img className="media-object" src="http://placehold.it/200x280" alt="Placehold" />
+         <img className="media-object" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOZCVpFy43R-HLc2oSrtSn5b-PxiZLjA5aokaOtyXfgTjCEWJj" alt="image"  width="200"/>
           </a>
         </div>
         <div className="media-body">
-          <h4 className="media-heading">{book.title}</h4>
+        <h4 className="media-heading">{book.title}</h4>
           <ul>
-            <li><stron>Author: </stron> {book.author}</li>
-            <li><stron>Price: </stron> ${book.price}</li>
-            <li><stron>Year: </stron> {book.year}</li>
-            <br/>
+        
+            <li><stron>Author: </stron>{book.author}</li><br></br><br></br>
+            <li><stron>Price: </stron> ${book.price}</li><br></br><br></br>
+             <li><stron>Year: </stron>{book.year}</li><br></br><br></br><br/>
+            
             {/* onClick event */}
             <button className="btn btn-primary" onClick={e => addToCart(book)}>Buy</button>
           </ul>

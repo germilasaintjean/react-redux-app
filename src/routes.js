@@ -5,6 +5,8 @@ import {BrowserRouter, Route } from 'react-router-dom';
 import Home from './components/common/HomePage'
 import About from './components/common/AboutPage'
 import BookPage from './components/book/BookPage'
+import MorePage from './components/more/MorePage'
+
 // eslint-disable-next-line no-unused-vars
 import App from './components/App'
  import CartPage from "./components/cart/CartPage"
@@ -23,6 +25,7 @@ render() {
     <Route exact path="/books" component={BookPage}></Route>
    <Route path="/books/:id" component={BookDetailsPage}></Route>
    <Route path="/cart" component={CartPage}></Route>
+   <Route path="/more" component={MorePage}></Route>
   {/* </Route> */}
 </BrowserRouter>
 

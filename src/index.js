@@ -21,10 +21,9 @@ store.dispatch(bookActions.fetchBooks());
 
 ReactDom.render(
   <Provider store={store}>
-    <Routes/>,
+    <Routes/>
 
     {/* <Router routes={routes} history={BrowserRouter} /> */}
-  </Provider>,
-  document.getElementById('app')
+  </Provider>,document.getElementById('app')
 );
 

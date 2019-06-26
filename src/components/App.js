@@ -14,13 +14,14 @@ class App extends Component {
             {/* <center><h1>Books are the best companions</h1></center> */}
           </div>
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul className="nav navbar-nav">
+            <ul className="topnav">
               <li><NavLink to="/">Home</NavLink></li>
               <li><NavLink to="/about">About</NavLink></li>
               <li><NavLink to="/books">Book</NavLink></li>
               <li><NavLink to="/cart">Cart</NavLink></li>
               <li><NavLink to="/more">More</NavLink></li>
-            </ul>
+              <li type="text" placeholder="Search.."></li>
+              </ul>
           </div>
         </div>
       </nav>

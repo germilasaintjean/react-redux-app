@@ -17,7 +17,7 @@ const More = () => {
          <img src="book.jpeg" alt="bookshop" width="800" height="400"></img><br></br><br></br>
       
 
-         <center><a href="https://www.theguardian.com/books/booksblog/2015/jun/19/the-10-best-independent-bookshops-in-the-world-readers-recommend">See More</a></center>
+         <center><a href="https://www.theguardian.com/books/booksblog/2015/jun/19/the-10-best-independent-bookshops-in-the-world-readers-recommend" class="myButton">see more</a></center>
        
          <h2>Social Follow</h2><br></br>
             <a

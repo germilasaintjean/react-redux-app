@@ -6,8 +6,7 @@ import {
     faYoutube,
     faFacebook,
     faTwitter,
-    faInstagram,
-    faLinkedIn
+    faInstagram
   } from "@fortawesome/free-brands-svg-icons";
 
 const More = () => {

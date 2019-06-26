@@ -1,6 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
 import BookDetails from './BookDetails'
 import * as bookActions from '../../actions/bookActions';
 
@@ -44,5 +43,4 @@ const mapDispatchToProps = (dispatch) => {
       addToCart: item => dispatch(bookActions.addToCart(item))
     };
 };
-
 export default connect(mapStateToProps, mapDispatchToProps)(BookDetailsPage);

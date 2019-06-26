@@ -6,6 +6,7 @@ const Home = () => {
     
       <p><strong><font size="6"><center>Welcome to the bookshop</center></font></strong></p>
       <h2>Overview</h2>
+      <p>---------Books are the best companions-----------</p>
       <p><font size="4">There is an old saying, <strong>"The pen is mightier than the sword."</strong>Ideas written down have changed the destiny of men and nations for better or worse.</font></p>
        <p><font size="4">The flow of ideas cannot be stopped. We need to read and research to build on the good ideas and expose the bad ideas before they bring destruction.</font></p>
       <p><font size="4">Only by reading can we be armed in this never-ending, life-and-death struggle.</font></p><br></br>

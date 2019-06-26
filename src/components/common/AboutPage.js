@@ -5,7 +5,7 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-     <img src='log.jpg' width="200" height="200"></img>
+     <img src='log.jpg' alt="log" width="200" height="200"></img>
       {/* <left><img src='log.jpg' width="200" height="200"></img></left> */}
       <p><font size="4">Since opening in 2018, our bookstore has been very expensive to many people.</font></p> 
       <p><font size="4">It's like a library, we offer a service opere.Our bookstore is notable for its selection of new programming books, garden, and animals..</font></p><br/>

@@ -22,7 +22,7 @@ const BookDetails = ({book, addToCart}) => {
             }}>Buy</button> */}
              <a id="swfMailTo" class="a-link-normal email" title="Share via e-mail" href="mailto:?body=I%20would%20like%20to%20recommend%20this%20Book&amp;subject=I%20want%20to%20recommend%20this%20product%20on%20%20your BOOkShop%20"bookshop>Buy</a><br></br><br></br>
           <input id="add-to-cart-button" name="submit.add-to-cart" title="Add to Shopping Cart" data-hover="Select <b>__dims__</b> from the left<br> to add to Shopping Cart" class="a-button-input attach-dss-atc" type="button" value="Add to Cart" aria-labelledby="submit.add-to-cart-announce"></input>
-          </ul>
+       </ul>
         </div>
       </div>
       

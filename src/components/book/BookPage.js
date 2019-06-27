@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import BookForm from './BookForm';
 import {NavLink} from 'react-router-dom';
 import * as bookActions from '../../actions/bookActions';
+import AppBis from '../AppBis';
 
 class Book extends React.Component{
   // eslint-disable-next-line no-useless-constructor
@@ -20,6 +21,12 @@ class Book extends React.Component{
       <div className="row">
         <div className="col-md-6">
           <h3>Books</h3>
+          <div class="search-container">
+              <center> <form action="/books" >
+               <input type="text" placeholder="Search.." name="search"/>
+             <button type="submit"><i class="fa fa-fw fa-search"></i></button>
+             </form></center>
+           </div>
           <table className="table">
             <thead>
               <th>

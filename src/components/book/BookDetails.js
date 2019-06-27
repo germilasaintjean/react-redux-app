@@ -1,9 +1,9 @@
 import React from 'react';
-
-
 const BookDetails = ({book, addToCart}) => { 
     return (
+    
       <div className="media">
+       
         <div className="media-left">
           {/* <a href="#"> */}
          <img className="media-object" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOZCVpFy43R-HLc2oSrtSn5b-PxiZLjA5aokaOtyXfgTjCEWJj" alt="im"  width="200"/>
@@ -25,6 +25,7 @@ const BookDetails = ({book, addToCart}) => {
           </ul>
         </div>
       </div>
+      
     );
 };
 

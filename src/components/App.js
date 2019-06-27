@@ -21,13 +21,8 @@ class App extends Component {
               <li><NavLink to="/books">Book</NavLink></li>
               <li><NavLink to="/cart">Cart</NavLink></li>
               <li><NavLink to="/more">More</NavLink></li>
-              <div class="search-container">
-              <form action="/action_page.php">
-               <input type="text" placeholder="Search.." name="search"/>
-             <button type="submit"><i class="fa fa-fw fa-search"></i></button>
-             </form><center></center>
-           </div>
-              </ul>
+              
+             </ul>
           </div>
         </div>
       </nav>
